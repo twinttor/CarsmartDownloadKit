@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.source_files = 'CarsmartDownloadKit/*.{h,m}','CarsmartDownloadKit/**/*.{h,m}'
   s.requires_arc = true
   s.frameworks  = 'UIKit', 'Foundation'
-  s.dependency 'AFNetworking'
+  s.libraries = 'AFNetworking'
 end
