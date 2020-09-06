@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.frameworks  = 'UIKit', 'Foundation' 
   s.vendored_frameworks = 'CarsmartDownloadKit/Librarys/*.framework'
-  valid_archs = ['armv7','armv7s','arm64','arm64e']
+  s.valid_archs = ['armv7','armv7s','arm64','arm64e']
 end
