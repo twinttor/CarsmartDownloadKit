@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.source  = {:git => 'https://github.com/twinttor/CarsmartDownloadKit.git', :tag => s.version}
   s.source_files = 'CarsmartDownloadKit/*.{h,m}'
   s.requires_arc = true
-  s.frameworks  = 'UIKit', 'Foundation', 'CommonCrypto'
+  s.frameworks  = 'UIKit', 'Foundation'
   s.dependency 'AFNetworking'
 end
