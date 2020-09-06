@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version = '1.0'
   s.summary = '断点续传下载'
   s.homepage    = 'https://github.com/twinttor/CarsmartDownloadKit'
-  s.license = 'MIT'
+  s.license = { :type=>"MIT", :file=>"LICENSE"}
   s.platform    = :ios, '9.0'
   s.swift_version = '4.2'
   s.author  = {'twinttor' => 'ardor_zsl@qq.com'}
