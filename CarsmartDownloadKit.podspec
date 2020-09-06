@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.public_header_files = 'CarsmartDownloadKit/Librarys/AFNetworking.framework/Headers/*.h'
   s.requires_arc = true
   s.frameworks  = 'UIKit', 'Foundation' 
-  s.vendored_frameworks = 'AFNetworking'
+  # s.vendored_frameworks = 'AFNetworking'
 end
