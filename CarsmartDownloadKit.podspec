@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
   s.frameworks  = 'UIKit', 'Foundation' 
   s.vendored_frameworks = 'CarsmartDownloadKit/Librarys/*.framework'
   valid_archs = ['armv7','armv7s','arm64','arm64e',]
+  s.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
 end
