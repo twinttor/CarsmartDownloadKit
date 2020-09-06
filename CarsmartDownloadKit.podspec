@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author  = {'twinttor' => 'ardor_zsl@qq.com'}
   s.ios.deployment_target = '9.0'
   s.source  = {:git => 'https://github.com/twinttor/CarsmartDownloadKit.git', :tag => s.version}
-  s.source_files = 'CarsmartDownloadKit/*.{h,m}'
+  s.source_files = 'CarsmartDownloadKit/*.{h,m}','CarsmartDownloadKit/**/*.{h,m}'
   s.requires_arc = true
   s.frameworks  = 'UIKit', 'Foundation'
   s.dependency 'AFNetworking'
