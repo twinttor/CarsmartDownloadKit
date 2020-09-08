@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = 'CarsmartDownloadKit'
-  s.version             = '1.0.0'
+  s.version             = '0.1.0'
   s.summary             = '断点续传下载'
   s.homepage            = 'https://github.com/twinttor/CarsmartDownloadKit'
   s.license             = { :type => 'MIT', :file => 'LICENSE'}
