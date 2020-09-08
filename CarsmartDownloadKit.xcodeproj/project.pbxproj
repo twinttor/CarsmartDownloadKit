@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B6FB1E61D385CDFE2D8698D /* Pods_CarsmartDownloadKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7C84B8C0241ADBA71B477A /* Pods_CarsmartDownloadKit.framework */; };
 		53B505961F43E0CC002EE21D /* CarsmartDownloadKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B5058C1F43E0CB002EE21D /* CarsmartDownloadKit.framework */; };
 		53B5059B1F43E0CC002EE21D /* CarsmartDownloadKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B5059A1F43E0CC002EE21D /* CarsmartDownloadKitTests.m */; };
 		53B5059D1F43E0CC002EE21D /* CarsmartDownloadKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B5058F1F43E0CB002EE21D /* CarsmartDownloadKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53B505AE1F43E8D5002EE21D /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B505AD1F43E8D5002EE21D /* AFNetworking.framework */; };
 		53B505AF1F43E92C002EE21D /* DownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B505A91F43E2A9002EE21D /* DownloadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53B505B01F43E93D002EE21D /* MD5Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B505A61F43E2A9002EE21D /* MD5Tool.h */; };
 		53B505B11F43E968002EE21D /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B505AA1F43E2A9002EE21D /* DownloadManager.m */; };
@@ -38,7 +38,9 @@
 		53B505A71F43E2A9002EE21D /* MD5Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MD5Tool.m; sourceTree = "<group>"; };
 		53B505A91F43E2A9002EE21D /* DownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadManager.h; sourceTree = "<group>"; };
 		53B505AA1F43E2A9002EE21D /* DownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadManager.m; sourceTree = "<group>"; };
-		53B505AD1F43E8D5002EE21D /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = CarsmartDownloadKit/Librarys/AFNetworking.framework; sourceTree = "<group>"; };
+		912F39E25901EA65FAB8A073 /* Pods-CarsmartDownloadKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarsmartDownloadKit.release.xcconfig"; path = "Target Support Files/Pods-CarsmartDownloadKit/Pods-CarsmartDownloadKit.release.xcconfig"; sourceTree = "<group>"; };
+		AD3B17EDDEB8E78E399C7D99 /* Pods-CarsmartDownloadKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarsmartDownloadKit.debug.xcconfig"; path = "Target Support Files/Pods-CarsmartDownloadKit/Pods-CarsmartDownloadKit.debug.xcconfig"; sourceTree = "<group>"; };
+		CD7C84B8C0241ADBA71B477A /* Pods_CarsmartDownloadKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarsmartDownloadKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53B505AE1F43E8D5002EE21D /* AFNetworking.framework in Frameworks */,
+				0B6FB1E61D385CDFE2D8698D /* Pods_CarsmartDownloadKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +69,8 @@
 				53B5058E1F43E0CB002EE21D /* CarsmartDownloadKit */,
 				53B505991F43E0CC002EE21D /* CarsmartDownloadKitTests */,
 				53B5058D1F43E0CB002EE21D /* Products */,
-				53B505AC1F43E8D5002EE21D /* Frameworks */,
+				7AE65F4F55C4F52BBB217916 /* Pods */,
+				BC90834063880B77BD4BD70D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,10 +113,20 @@
 			path = Download;
 			sourceTree = "<group>";
 		};
-		53B505AC1F43E8D5002EE21D /* Frameworks */ = {
+		7AE65F4F55C4F52BBB217916 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				53B505AD1F43E8D5002EE21D /* AFNetworking.framework */,
+				AD3B17EDDEB8E78E399C7D99 /* Pods-CarsmartDownloadKit.debug.xcconfig */,
+				912F39E25901EA65FAB8A073 /* Pods-CarsmartDownloadKit.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BC90834063880B77BD4BD70D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD7C84B8C0241ADBA71B477A /* Pods_CarsmartDownloadKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -138,6 +151,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53B505A01F43E0CC002EE21D /* Build configuration list for PBXNativeTarget "CarsmartDownloadKit" */;
 			buildPhases = (
+				8972B41370569B1951A4A71D /* [CP] Check Pods Manifest.lock */,
 				53B505871F43E0CB002EE21D /* Sources */,
 				53B505881F43E0CB002EE21D /* Frameworks */,
 				53B505891F43E0CB002EE21D /* Headers */,
@@ -221,6 +235,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8972B41370569B1951A4A71D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarsmartDownloadKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		53B505871F43E0CB002EE21D /* Sources */ = {
@@ -363,6 +402,7 @@
 		};
 		53B505A11F43E0CC002EE21D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD3B17EDDEB8E78E399C7D99 /* Pods-CarsmartDownloadKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -385,6 +425,7 @@
 		};
 		53B505A21F43E0CC002EE21D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 912F39E25901EA65FAB8A073 /* Pods-CarsmartDownloadKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
