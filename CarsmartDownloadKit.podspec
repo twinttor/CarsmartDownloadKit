@@ -9,7 +9,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.source              = {:git => 'https://github.com/twinttor/CarsmartDownloadKit.git', :tag => s.version}
   s.source_files        = 'CarsmartDownloadKit/*.{h,m}', 'CarsmartDownloadKit/**/*.{h,m}'
-  s.public_header_files = 'CarsmartDownloadKit/CarsmartDownloadKit.h'
   s.requires_arc        = true
   s.ios.framework       = 'Foundation' 
   s.dependency            'AFNetworking'
